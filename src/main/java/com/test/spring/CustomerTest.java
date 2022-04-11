@@ -9,6 +9,7 @@ public class CustomerTest {
 		appContext.refresh();
 		System.out.println("spring data jpa example...!");
 		System.out.println("changes");
+		System.out.println("changes1");
 		CustomerService customerService = (CustomerService) appContext.getBean("customerService");
 		customerService.test();
 
