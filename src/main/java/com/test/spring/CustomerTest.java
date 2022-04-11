@@ -7,7 +7,7 @@ public class CustomerTest {
 		AnnotationConfigApplicationContext appContext = new AnnotationConfigApplicationContext();
 		appContext.scan("com.test.spring");
 		appContext.refresh();
-		System.out.println("spring data jpa came...!");
+		System.out.println("spring data jpa...!");
 		CustomerService customerService = (CustomerService) appContext.getBean("customerService");
 		customerService.test();
 
