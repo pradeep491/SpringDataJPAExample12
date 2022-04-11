@@ -1,0 +1,1 @@
+# SpringDataJPAExample12
