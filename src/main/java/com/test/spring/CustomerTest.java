@@ -11,6 +11,7 @@ public class CustomerTest {
 		System.out.println("changes");
 		System.out.println("changes1");
 		System.out.println("changes2");
+		System.out.println("changes3");
 		CustomerService customerService = (CustomerService) appContext.getBean("customerService");
 		customerService.test();
 
